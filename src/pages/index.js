@@ -8,9 +8,10 @@ export default function Home() {
     <Link to="/about/">About</Link>
     <p></p>
     <Link to="/contact/">Contact</Link>
-    <Header headerText="Hello Gatsby!" />
-    <p>What a world</p>
-    <img src="../images/toy_zaku.jpg" alt="" />
+    <Header headerText="Welcome to the Zak Test Page!" />
+    <h3>Let's try some basic HTML</h3>
+    <p>Click on the image below.</p>
+    <a href="https://gundam.fandom.com/wiki/Char_Aznable"><img src="../images/char.jpg" alt="" /></a>
   </div>
   );
 }
