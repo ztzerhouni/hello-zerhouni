@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Header from "../components/header"
+import CharImg from "../images/char.jpg"
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
     <Header headerText="Welcome to the Zak Test Page!" />
     <h3>Let's try some basic HTML</h3>
     <p>Click on the image below.</p>
-    <a href="https://gundam.fandom.com/wiki/Char_Aznable"><img src="../images/char.jpg" alt="" /></a>
+    <a href="https://gundam.fandom.com/wiki/Char_Aznable"><img src={CharImg} alt="" /></a>
   </div>
   );
 }
